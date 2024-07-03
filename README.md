@@ -17,9 +17,9 @@ The classifier is trained on a training set of messages and evaluated on a test 
 To use the model, simply run the Python script and the model will be trained and evaluated on the provided dataset.
 
 ### Dependencies
-Python 3.x
-scikit-learn
-pandas
-License
-
+ * Python 3.x
+ * scikit-learn
+ * pandas
+   
+** License **
 This model is licensed under the MIT License.
