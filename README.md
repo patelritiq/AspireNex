@@ -60,7 +60,7 @@ To use the model, simply run the Python script and the model will be trained and
  * pandas
 
 ### License
-Qchat is licensed under the MIT License. See LICENSE for details.
+This repository is licensed under the MIT License. See LICENSE for details.
 
 ### Contributing
 Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue or submit a pull request.
