@@ -7,10 +7,10 @@ The model is trained on a dataset called Churn.csv, which contains customer data
 
 ### Model Performance
 The model's performance is evaluated using the following metrics:
- > Accuracy
- > Precision
- > Recall
- > F1-score
+ >> Accuracy
+ >> Precision
+ >> Recall
+ >> F1-score
 
 ### How to Use:
  - Download the Churn.csv dataset and place it in the same directory as the Python script.
@@ -26,11 +26,11 @@ This is a simple SMS Spam Detection model built using Python and scikit-learn. T
 ### Dataset
 The model is trained on a dataset of labeled SMS messages, where each message is accompanied by a label indicating whether it is spam or not. The dataset is stored in a CSV file named spam.csv.
 
-## Features
+### Features
 The model uses the text of the SMS message as the feature for classification.
 The text is preprocessed by converting it to lowercase and removing non-alphabetic characters.
 
-## Model
+### Model
 The model uses a Multinomial Naive Bayes classifier to classify the SMS messages.
 The classifier is trained on a training set of messages and evaluated on a test set.
 
@@ -46,7 +46,7 @@ This is a Credit Card Fraud Detection model built using Python and scikit-learn.
 ### Dataset
 The model is trained on a dataset of credit card transactions, where each transaction is labeled as either fraudulent (1) or not fraudulent (0). The dataset is stored in a CSV file named creditcard.csv.
 
-## Models
+### Models
 The model uses two classification algorithms:
  - Logistic Regression
  - Decision Tree
@@ -58,3 +58,12 @@ To use the model, simply run the Python script and the model will be trained and
  * Python 3.x
  * scikit-learn
  * pandas
+
+### License
+Qchat is licensed under the MIT License. See LICENSE for details.
+
+### Contributing
+Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue or submit a pull request.
+
+Author
+Ritik Pratap Singh Patel (patelritiq)
