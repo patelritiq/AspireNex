@@ -7,10 +7,10 @@ The model is trained on a dataset called Churn.csv, which contains customer data
 
 ### Model Performance
 The model's performance is evaluated using the following metrics:
- >> Accuracy
- >> Precision
- >> Recall
- >> F1-score
+ > * Accuracy
+ > * Precision
+ > * Recall
+ > * F1-score
 
 ### How to Use:
  - Download the Churn.csv dataset and place it in the same directory as the Python script.
