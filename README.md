@@ -1,4 +1,4 @@
-# 🚀 AspireNex - Machine Learning Models Collection
+# AspireNex - Machine Learning Models Collection 🚀
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
