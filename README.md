@@ -6,6 +6,8 @@
 
 A comprehensive collection of machine learning models for real-world applications including fraud detection, customer analytics, and spam filtering.
 
+> **Note:** These models were developed during a project-based remote internship at AspireNex as part of my college curriculum. They represent foundational implementations created for learning purposes and may not reflect production-level optimization or advanced techniques.
+
 ## 📋 Table of Contents
 - [Models Overview](#models-overview)
 - [Installation](#installation)
@@ -18,7 +20,7 @@ A comprehensive collection of machine learning models for real-world application
 ## 🤖 Models Overview
 
 ### 1. Credit Card Fraud Detection
-**File:** `creditcardfrauddetection.py`
+**File:** `models/creditcardfrauddetection.py`
 
 Detects fraudulent credit card transactions using machine learning algorithms.
 
@@ -33,7 +35,7 @@ Detects fraudulent credit card transactions using machine learning algorithms.
 - Comprehensive evaluation metrics
 
 ### 2. Customer Churn Prediction
-**File:** `customerchurnprediction.py`
+**File:** `models/customerchurnprediction.py`
 
 Predicts customer churn probability to help businesses retain customers.
 
@@ -48,7 +50,7 @@ Predicts customer churn probability to help businesses retain customers.
 - Multiple evaluation metrics for comprehensive analysis
 
 ### 3. SMS Spam Detection
-**File:** `smsspamdetection.py`
+**File:** `models/smsspamdetection.py`
 
 Classifies SMS messages as spam or legitimate using natural language processing.
 
@@ -101,19 +103,19 @@ seaborn>=0.11.0
 
 ### Credit Card Fraud Detection
 ```bash
-python creditcardfrauddetection.py
+python models/creditcardfrauddetection.py
 ```
 **Required Dataset:** `creditcard.csv`
 
 ### Customer Churn Prediction
 ```bash
-python customerchurnprediction.py
+python models/customerchurnprediction.py
 ```
 **Required Dataset:** `Churn.csv`
 
 ### SMS Spam Detection
 ```bash
-python smsspamdetection.py
+python models/smsspamdetection.py
 ```
 **Required Dataset:** `spam.csv`
 
@@ -153,20 +155,23 @@ python smsspamdetection.py
 
 ```
 AspireNex/
-├── README.md
+├── README.md 
 ├── requirements.txt
-├── creditcardfrauddetection.py
-├── customerchurnprediction.py
-├── smsspamdetection.py
+├── LICENSE
+├── models/
+│   ├── creditcardfrauddetection.py
+│   ├── customerchurnprediction.py
+│   └── smsspamdetection.py
 ├── creditcard.csv (your dataset)
 ├── Churn.csv (your dataset)
 └── spam.csv (your dataset)
+
 ```
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
-- **FileNotFoundError:** Ensure your CSV files are named exactly as specified and placed in the same directory
+- **FileNotFoundError:** Ensure your CSV files are named exactly as specified and placed in the root directory (same level as the models folder)
 - **Encoding Issues:** For spam.csv, make sure it's saved with ISO-8859-1 encoding
 - **Memory Issues:** Large datasets may require more RAM; consider using a machine with sufficient memory
 
@@ -203,8 +208,8 @@ Contributions are welcome! Here's how you can help:
 
 If you encounter any issues or have questions:
 - **Create an Issue:** [GitHub Issues](https://github.com/patelritiq/AspireNex/issues)
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn Profile]
+- **Email:** [patelritiq@gmail.com](patelritiq@gmail.com)
+- **LinkedIn:** [linkedin.com/patelritiq](https://www.linkedin.com/in/patelritiq?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ## 📄 License
 
@@ -222,8 +227,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![GitHub forks](https://img.shields.io/github/forks/patelritiq/AspireNex?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/patelritiq/AspireNex)
 
----
-
-**Made with ❤️ by [Ritik Pratap Singh Patel](https://github.com/patelritiq)**
-
-*Empowering businesses with intelligent machine learning solutions*
