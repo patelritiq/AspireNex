@@ -226,4 +226,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![GitHub stars](https://img.shields.io/github/stars/patelritiq/AspireNex?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/patelritiq/AspireNex?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/patelritiq/AspireNex)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/patelritiq/AspireNex)
