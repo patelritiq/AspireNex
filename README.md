@@ -12,7 +12,7 @@ A collection of **3 machine learning classification systems** developed during a
 **Organization**: AspireNex  
 **Duration**: July 2024 – September 2024  
 **Role**: Machine Learning Virtual Intern  
-**Type**: Project-based remote internship (B.Tech Sem7)
+**Type**: Project-based remote internship
 
 ### Project Scope
 - **3 ML Classification Systems**: Fraud detection, churn prediction, spam filtering
